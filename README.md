@@ -50,13 +50,14 @@ POSTGRES = {
 **5️⃣ Open the Tableau dashboard:**
 - Open File in Dashboard/Football.twbx
 ## 🚀 Screenshots
-- 🔮 Prediction Tab:
-![Prediction Tab](images/1.png)
-- 📊 Analysis: Unicorns per Country:
-![Unicorns per Country](images/2.png)
-- 💰 Analysis: Total Valuation per Country:
-![Total Valuation per Country](images/3.png)
-- 📉 Analysis: Average Valuation per Country:
-![Average Valuation per Country](images/4.png)
-- 📈 Analysis: KPIs Overview:
-  ![KPIs Overview](images/5.png)
+- 🔮 Jupiter Notebook:
+![Notebook1](images/1.png)
+![Notebook2y](images/2.png)
+- 📅 Yearly Avg Goal By Gender:
+![gender_goals](images/3.png)
+- 🏆 Avg Goals by Tournamenty:
+![tournament_goals](images/4.png)
+- ⚽ Match Count:
+![matches](images/5.png)
+- ⚽ Goal Count:
+![goal](images/6.png)
