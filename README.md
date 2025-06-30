@@ -50,9 +50,13 @@ POSTGRES = {
 **5️⃣ Open the Tableau dashboard:**
 - Open File in Dashboard/Football.twbx
 ## 🚀 Screenshots
-
-**🔮 Prediction Interface:**
-![Prediction](images/1.png)
-
-**📊 Claim KPIs Dashboard:**
-![KPIs](images/2.png)
+- 🔮 Prediction Tab:
+![Prediction Tab](images/1.png)
+- 📊 Analysis: Unicorns per Country:
+![Unicorns per Country](images/2.png)
+- 💰 Analysis: Total Valuation per Country:
+![Total Valuation per Country](images/3.png)
+- 📉 Analysis: Average Valuation per Country:
+![Average Valuation per Country](images/4.png)
+- 📈 Analysis: KPIs Overview:
+  ![KPIs Overview](images/5.png)
