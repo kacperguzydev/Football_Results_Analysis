@@ -7,13 +7,15 @@ Analyze scoring patterns in men’s and women’s international football matches
 
 ## ✅ Tools Used
 
-- Python 3
+- Python 3.11
 - pandas
-- numpy
-- scikit-learn
-- SQLite
-- Streamlit
-- Plotly
+- SQLAlchemy
+- psycopg2
+- scipy
+- PostgreSQL
+- matplotlib
+- Jupyter Notebook
+- Tableau Public
 
 ---
 
@@ -21,23 +23,32 @@ Analyze scoring patterns in men’s and women’s international football matches
 
 **1️⃣ Clone the repository:**
 
-git clone https://github.com/kacperguzydev/Unicorn_Companies_Analysis.git
+git clone https://github.com/kacperguzydev/Football_Results_Analysis.git
 
 **2️⃣ Install required packages:**
 
 pip install -r requirements.txt
 
-**3️⃣ Prepare the data (run these scripts in order):**
+**3️⃣ Edit Config.py:**
 
-- python transform.py
+POSTGRES = {
+    "user": "your_username",
+    "password": "your_password",
+    "host": "localhost",
+    "port": "5432",
+    "database": "soccer_db"
+}
+
+**4️⃣ Prepare the data (run these scripts in order):**
+- python merge_men.py
+- python merge_women.py
 - python load_to_db.py
 - python sql_analysis.py
-- python prediction.py
+- python goals_over_time.py
+- python gender_goal_difference.py
 
-**4️⃣ Launch the dashboard locally:**
-
-streamlit run dashboard.py
-
+**5️⃣ Open the Tableau dashboard:**
+- Open File in Dashboard/Football.twbx
 ## 🚀 Screenshots
 
 **🔮 Prediction Interface:**
